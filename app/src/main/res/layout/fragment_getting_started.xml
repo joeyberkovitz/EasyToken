@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:viewBindingIgnore="true"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <View
+	    	android:layout_width="match_parent"
+	    	android:layout_height="20dp" />
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/rect"
+	    android:orientation="horizontal" >
+
+        <Button
+	        android:id="@+id/import_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:text="@string/import_token" />
+
+	    <View
+	    	android:layout_width="1dp"
+	    	android:layout_height="fill_parent"
+	    	android:background="#808080"/>
+
+	    <Button
+	        android:id="@+id/help_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:text="@string/help" />
+
+	</LinearLayout>
+
+</LinearLayout>

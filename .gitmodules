@@ -1,0 +1,3 @@
+[submodule "app/src/main/cpp/stoken"]
+	path = app/src/main/cpp/stoken
+	url = https://github.com/cernekee/stoken.git

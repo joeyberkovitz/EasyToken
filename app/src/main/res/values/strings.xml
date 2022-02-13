@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easy Token</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="get_started_text">To get started, please choose one of the following options:</string>
+    <string name="import_token">Import token</string>
+    <string name="import_new_token">Import new token</string>
+
+    <string name="report_problem">Report a problem</string>
+
+    <string name="settings">Settings</string>
+    <string name="save_pin_title">Remember PIN</string>
+    <string name="save_pin_summary">Save the PIN to internal storage. If you want to use widgets, this is required.</string>
+    <string name="fg_service_title">Use foreground service</string>
+    <string name="fg_service_summary">Enable this if you have trouble with the widget freezing. Android will raise the widget\'s priority but may also display an annoying notification.</string>
+
+    <string name="help">Help</string>
+    <string name="help_text_title">Help</string>
+    <string name="help_text_000">Easy Token is an RSA SecurID-compatible authenticator with advanced usability features.\n</string>
+    <string name="help_text_010">If you do not have an RSA software token or are not sure what this is used for, you may safely uninstall the app.\n</string>
+    <string name="help_text_020">Easy Token supports both lock screen widgets and home screen widgets.  First import your token, then enter your PIN.  Then follow these instructions to install the widget:\n</string>
+    <string name="help_text_030"> - Lock screen widget: available on Android 4.2 through 4.4.  Not available on Android \"L\".  Watch [this video](http://www.youtube.com/watch?v=ZpN8Wyu_z6Y) and [this video](http://www.youtube.com/watch?v=NRRbjlXQluc) for an introduction.</string>
+    <string name="help_text_040"> - See also: special instructions for [Samsung](http://www.youtube.com/watch?v=Fbzcy7NxBuE) and [HTC](http://www.youtube.com/watch?v=QZZjBuqQvZk).  If the standard instructions do not work, you may need to search for directions for your specific device.</string>
+    <string name="help_text_050"> - Home screen widget: for Android 4.3 or earlier watch [this video](http://www.youtube.com/watch?v=mihmN_mZU4c); for Android 4.4+ watch [this video](http://www.youtube.com/watch?v=q_xKlp7ehnY).</string>
+    <string name="help_text_060">\nTips:\n</string>
+    <string name="help_text_070"> - To resize a home screen widget, long-press the widget and then release.  Then drag the outline to adjust the boundaries.</string>
+    <string name="help_text_080"> - Some Android versions miscalculate the widget\'s size, resulting in a distorted image.  If this happens, delete the widget and re-create it.</string>
+    <string name="help_text_090"> - You may delete the clock widget from the lock screen and place Easy Token on the main lock screen, if desired.  Clicking on the Easy Token lock screen widget will toggle between tokencode mode and clock mode.</string>
+    <string name="help_text_100">\nSecurity considerations:\n</string>
+    <string name="help_text_110">Please use Easy Token responsibly and avoid taking unnecessary risks with sensitive data.  All software tokens are at risk of theft by malware; for high-security applications a hardware token is strongly preferred.\n</string>
+    <string name="help_text_120">Saving your PIN is convenient, but can be risky if your device is stolen.\n</string>
+    <string name="help_text_130">If you use the lock screen widget, your tokencode is available to anybody with access to your phone (even if they cannot unlock it).  For this case, you may want to ask your system administrator to issue a 6-digit PIN-less software token, which will require you to enter PIN + TOKENCODE when logging in, instead of just a tokencode.</string>
+
+    <string name="about">About</string>
+    <string name="about_text_title">About</string>
+    <string name="about_text_000" translatable="false">{pkg-info}\n</string>
+    <string name="about_text_010" translatable="false">Copyright 2012-2014 Kevin Cernekee &lt;[cernekee@gmail.com](mailto:cernekee@gmail.com)&gt;\nThis is free software with ABSOLUTELY NO WARRANTY.</string>
+    <string name="about_text_020">For details see the COPYING file in the source distribution.\n</string>
+    <string name="about_text_030">Source code and issue tracking can be found at:</string>
+    <string name="about_text_040" translatable="false">[https://github.com/cernekee/EasyToken](https://github.com/cernekee/EasyToken)</string>
+
+    <string name="device_id">Device ID:</string>
+    <string name="copy">Copy</string>
+    <string name="email">Email</string>
+    <string name="copied_entry">Copied to clipboard.</string>
+
+    <string name="next_tokencode">Next tokencode:</string>
+    <string name="using_pin">Using PIN:</string>
+    <string name="token_sn">Token S/N:</string>
+    <string name="exp_date">Expiration date:</string>
+    <string name="gmt">Current time (GMT):</string>
+    <string name="dev_id">SecurID device ID:</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="new_pin">New PIN</string>
+    <string name="skip">Skip</string>
+
+    <string name="rename_token">Rename</string>
+    <string name="remove">Remove</string>
+    <string name="remove_confirm">Confirm token removal</string>
+
+    <string name="enter_pin_message">Enter the PIN that you normally use with this token. If you are setting up a newly issued token with no PIN, click \"No PIN\" and follow the instructions provided by your system administrator.</string>
+    <string name="new_pin_message">This changes the PIN used locally to calculate your tokencode. It will NOT automatically change the PIN on your account.</string>
+    <string name="change">Change</string>
+    <string name="no_pin">No PIN</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="not_required">Not required</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="select_token_source">Please select a token source:</string>
+    <string name="input_uri">I have an \'http\' link or \'sdtid\' file attachment in my email.</string>
+    <string name="input_qr">I have a QR barcode.</string>
+    <string name="input_browse">I copied an \'sdtid\' file to my Android device over USB.</string>
+    <string name="input_manual">Manual entry or paste from clipboard.</string>
+
+    <string name="import_uri_help">To import an \"sdtid\" XML file that is attached to an email, click on the attachment and select \"Import token\".  If that doesn\'t work, you can copy it to external storage via USB and then directly import the file.\n\nTo import a link in any of these formats, click on the blue underlined link from your email client and then select \"Import token\":</string>
+    <string name="import_uri_examples" translatable="false">http://127.0.0.1/securid/ctf?ctfData=25049&#8230;\nhttp://127.0.0.1/securid/ctf?ctfData=AwAAf&#8230;\ncom.rsa.securid.iphone://ctf?ctfData=22963&#8230;</string>
+
+    <string name="manual_prompt">Enter your token string here:</string>
+    <string name="examples">Examples:</string>
+    <string name="manual_examples" translatable="false">29624-04141-91521-01027-05321-47115-52307-&#8230;\n2806706667477513430277017220171264075514&#8230;</string>
+    <string name="manual_help">The \"Next\" button will become active once a valid token string is entered. To paste, long-press the input area.</string>
+
+    <string name="token_file_unreadable">Unable to read the token file:</string>
+    <string name="token_file_invalid">Unable to parse the token file. Please contact your system administrator.</string>
+    <string name="token_string_invalid">Unable to parse the token string. Please contact your system administrator.\n\nToken:</string>
+
+    <string name="qr_prompt_title">Install Barcode Scanner?</string>
+    <string name="qr_prompt_message">Importing a QR code requires Barcode Scanner, a free app. Would you like to install it?</string>
+
+    <string name="pass_prompt">Enter the password for this token:</string>
+    <string name="devid_prompt">Enter the bound device ID:</string>
+    <string name="pin_prompt">Enter PIN (optional):</string>
+
+    <string name="unable_to_process_token">Unable to process token</string>
+    <string name="pass_bad">The supplied password is incorrect.</string>
+    <string name="devid_bad">The supplied device ID is incorrect.</string>
+    <string name="pass_devid_bad">The supplied password or bound device ID is incorrect.</string>
+    <string name="general_failure">General failure.</string>
+    <string name="pin_bad">PIN must be 4-8 digits long.</string>
+
+    <string name="overwrite_confirm">Are you sure you want to overwrite your current token?</string>
+    <string name="import_confirm">Import this token?</string>
+    <string name="current_token">Current token:</string>
+    <string name="replacement_token">Replacement token:</string>
+
+    <!-- FileDialog -->
+    <string name="clear">Clear</string>
+    <string name="no_data">No Data</string>
+    <string name="make_selection_inline">Copy into profile</string>
+    <string name="select_file">Select</string>
+    <string name="file_icon">file icon</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">Unable to read directory</string>
+    <string name="file_explorer_tab">File Explorer</string>
+    <string name="inline_file_tab">Inline File</string>
+    <string name="file_too_large">File is too large</string>
+    <string name="error_importing_file">Error importing File</string>
+    <string name="import_error_message">Could not import File from filesystem</string>
+
+    <!-- ACRA crash reporting -->
+    <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop. Please help us fix this by sending us error data.</string>
+    <string name="crash_dialog_comment_prompt">Please describe what was happening when the problem occurred:</string>
+
+    <string name="problem_dialog_text">Thanks for offering your feedback for improving Easy Token. We\'re sorry you encountered an issue but we\'ll review your report and track down the bug.</string>
+    <string name="problem_dialog_comment_prompt">Please describe the problem, and what was happening when it occurred:</string>
+
+</resources>

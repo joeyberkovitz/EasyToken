@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="input_methods" translatable="false">
+        <item>@string/input_uri</item>
+        <item>@string/input_qr</item>
+        <item>@string/input_browse</item>
+        <item>@string/input_manual</item>
+    </string-array>
+
+    <string-array name="input_methods_keys" translatable="false">
+        <item>uri</item>
+        <item>qr</item>
+        <item>browse</item>
+        <item>manual</item>
+    </string-array>
+
+</resources>
