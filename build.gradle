@@ -18,7 +18,9 @@ allprojects {
                 url = uri("https://maven.pkg.github.com/joeyberkovitz/stokenjava")
                 credentials {
                     Properties localProps = new Properties()
-                    localProps.load(project.rootProject.file('local.properties').newDataInputStream())
+                    try {
+                        localProps.load(project.rootProject.file('local.properties').newDataInputStream())
+                    } catch (Exception ignored) {}
                     username = localProps.getProperty("gpr.user") ?: System.getenv("USERNAME")
                     password = localProps.getProperty("gpr.key") ?: System.getenv("TOKEN")
                 }
