@@ -27,6 +27,8 @@ jobs:
       env:
         USERNAME: ${{ github.actor }}
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Show build
+      run: ls -R app/build
     - name: Upload APK
       uses: actions/upload-artifact@v1
       with:
