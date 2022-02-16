@@ -17,14 +17,12 @@
 
 package app.easytoken;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.util.Log;
 
 import androidx.activity.result.ActivityResultCallback;
@@ -32,9 +30,6 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.io.File;
-
-import de.blinkt.openvpn.FileSelect;
 import kotlin.Unit;
 import us.berkovitz.stoken.SecurIdToken;
 import us.berkovitz.stoken.TokenGUID;
@@ -58,8 +53,6 @@ public class ImportActivity extends AppCompatActivity
 	private static final int STEP_UNLOCK_TOKEN = 6;
 	private static final int STEP_CONFIRM_IMPORT = 7;
 	private static final int STEP_DONE = 8;
-
-	private static final int REQ_PICK_FILE = 1;
 
 	private AlertDialog mDialog;
 
